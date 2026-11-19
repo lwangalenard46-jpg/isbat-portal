@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses | ISBAT University</title>
+    <link rel="stylesheet" href="portal.css">
+
+    <!-- Internal CSS for Timetable Colours -->
+    <style>
+        .webtech {
+            background: #DCEBFA;
+            color: #174A7E;
+        }
+
+        .cprog {
+            background: #E5F4E3;
+            color: #245B28;
+        }
+
+        .database {
+            background: #FCE8D5;
+            color: #88420B;
+        }
+
+        .networking {
+            background: #F0E3FA;
+            color: #60358A;
+        }
+
+        .timetable td {
+            text-align: center;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <img src="images/isbat logo.jpg" alt="ISBAT Logo" class="logo">
+
+        <h3>Student Portal</h3>
+        <p>Lenard Lwanga</p>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="courses.html">My Courses</a>
+            <a href="fees.html">Fee Statement</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+
+        <h1>My Courses</h1>
+        <p>Semester One - Year Two</p>
+
+        <h2>Enrolled Courses</h2>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Credits</th>
+                    <th>Lecturer</th>
+                    <th>Room</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>BIT 2101</td>
+                    <td>Web Technologies</td>
+                    <td>3</td>
+                    <td>Mr. Okello</td>
+                    <td>Lab 1</td>
+                    <td style="background:#E1F5EE; color:#085041;">Active</td>
+                </tr>
+
+                <tr>
+                    <td>BIT 2102</td>
+                    <td>Computer Programming</td>
+                    <td>4</td>
+                    <td>Ms. Namusoke</td>
+                    <td>Lab 2</td>
+                    <td style="background:#E1F5EE; color:#085041;">Active</td>
+                </tr>
+
+                <tr>
+                    <td>BIT 2103</td>
+                    <td>Database Management</td>
+                    <td>3</td>
+                    <td>Mr. Kato</td>
+                    <td>Room 204</td>
+                    <td style="background:#E1F5EE; color:#085041;">Active</td>
+                </tr>
+
+                <tr>
+                    <td>BIT 2104</td>
+                    <td>Computer Networking</td>
+                    <td>3</td>
+                    <td>Mr. Ssemanda</td>
+                    <td>Lab 3</td>
+                    <td style="background:#E1F5EE; color:#085041;">Active</td>
+                </tr>
+
+                <tr>
+                    <td>BIT 2105</td>
+                    <td>Systems Analysis</td>
+                    <td>3</td>
+                    <td>Ms. Achieng</td>
+                    <td>Room 105</td>
+                    <td style="background:#FAEEDA; color:#633806;">Pending</td>
+                </tr>
+
+                <tr>
+                    <td>BIT 2106</td>
+                    <td>Information Security</td>
+                    <td>2</td>
+                    <td>Mr. Mugisha</td>
+                    <td>Room 202</td>
+                    <td style="background:#E1F5EE; color:#085041;">Active</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Weekly Timetable</h2>
+
+        <div class="table-container">
+            <table class="timetable">
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+
+                <tr>
+                    <td>8:00 - 9:00</td>
+                    <td class="webtech" rowspan="2">Web Technologies</td>
+                    <td></td>
+                    <td class="cprog" rowspan="2">Computer Programming</td>
+                    <td></td>
+                    <td class="database" rowspan="2">Database Management</td>
+                </tr>
+
+                <tr>
+                    <td>9:00 - 10:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td></td>
+                    <td class="networking" rowspan="2">Networking</td>
+                    <td></td>
+                    <td class="webtech" rowspan="2">Web Technologies</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>12:00 - 1:00</td>
+                    <td colspan="5">Lunch Break</td>
+                </tr>
+
+                <tr>
+                    <td>1:00 - 2:00</td>
+                    <td class="database">Database Management</td>
+                    <td></td>
+                    <td class="networking">Networking</td>
+                    <td></td>
+                    <td class="cprog">Computer Programming</td>
+                </tr>
+
+                <tr>
+                    <td>2:00 - 3:00</td>
+                    <td></td>
+                    <td class="cprog">Computer Programming</td>
+                    <td></td>
+                    <td class="database">Database Management</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>3:00 - 4:00</td>
+                    <td></td>
+                    <td></td>
+                    <td class="webtech">Web Technologies</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>4:00 - 5:00</td>
+                    <td class="networking">Networking</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>
